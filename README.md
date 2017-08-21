@@ -1,8 +1,9 @@
 # ParseNmap
 
 ## Purpose
-用來解析nmap掃描的結果xml檔<br>
-可過濾出os為windows的主機ip, 並產出CSV檔
+This tool is used to parse xml result from NMAP port scanning.<br>
+We parse xml to golang struct, and filter out the machine with os Windows.<br>
+Finally, we will get a csv list as output.
 
 ## How to Build?
 `cd <gopath>/src/ParseNmap`<br>
