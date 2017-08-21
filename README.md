@@ -9,7 +9,10 @@
 `go build`
 
 ## How to use it?
-`parseNmap <input_file>.xml`
+Windows<br>
+`ParseNmap.exe <input_file>.xml`<br>
+Unix<br>
+`./ParseNmap <input_file>.xml`
 
 ## What is the Output?
 `<input_file>.csv`
