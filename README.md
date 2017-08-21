@@ -5,7 +5,8 @@
 可過濾出os為windows的主機ip, 並產出CSV檔
 
 ## How to Build?
-`go build -o parseNmap`
+`cd <gopath>/src/ParseNmap`<br>
+`go build`
 
 ## How to use it?
 `parseNmap <input_file>.xml`
